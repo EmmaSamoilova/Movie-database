@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Movie DataBase</title>
+</head>
+<body>
+  <div class="container-fluid">
+      <div class="col-sm-10 ">
+      {% block content %}
+            <h1>My Movie DataBase</h1>
+              <p>Welcome!</p>
+              <p>The Database has the following record counts:</p>
+              <ul>
+                <li><strong>Movies:</strong> {{ count_movie }}</li>
+                <li><strong>Actors:</strong> {{ count_actors }}</li>
+              </ul>
+              <a href="api/">API</a>
+              <p>"This product uses the TMDb API but is not endorsed or certified by TMDb."</p>
+      {% endblock %}
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
