@@ -121,7 +121,7 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-API_KEY = 'bc206fc688188392293fd2c3751c0477'
+API_KEY = ''
 TMDB_URL = 'https://api.themoviedb.org/'
 GENRES_URL = 'https://api.themoviedb.org/3/genre/'
 MOVIE_URL = 'https://api.themoviedb.org/3/movie/'
